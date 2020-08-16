@@ -1,3 +1,4 @@
+Code used for the results in the paper  ["ClassMix: Segmentation-Based Data Augmentation for Semi-Supervised Learning"](https://arxiv.org/abs/2007.07936)
 # Getting started
 ## Prerequisite
 *  CUDA/CUDNN 
