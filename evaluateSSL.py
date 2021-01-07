@@ -199,7 +199,7 @@ def evaluate(model, dataset, ignore_label=250, save_output_images=False, save_di
 
             output = output.transpose(1,2,0)
             output = np.asarray(np.argmax(output, axis=2), dtype=np.int)
-
+            data_list.append([gt.reshape(-1), output.reshape(-1)])
             if save_output_images:
                 if dataset == 'pascal_voc':
                     filename = os.path.join(save_dir, '{}.png'.format(name[0]))
