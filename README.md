@@ -21,11 +21,11 @@ Arguments related to the algoritms are specified in the configuration files. The
 ### Examples
 #### Training a model with semi-supervised learning with example config on a single gpu
 
-```python3 trainSSL.py --config ./configs/configCityscapes.json --name name_of_run```
+```python3 trainSSL.py --config ./configs/configCityscapes.json --name name_of_training```
 
 #### Resuming training of a model with semi-supervised learning
 
-```python3 trainSSL.py --resume-path path/to/checkpoint.pth```
+```python3 trainSSL.py --resume path/to/checkpoint.pth --name name_of_evaluation```
 
 
 
