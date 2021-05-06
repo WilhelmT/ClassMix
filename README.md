@@ -21,7 +21,7 @@ Arguments related to the algoritms are specified in the configuration files. The
 ### Examples
 #### Training a model with semi-supervised learning with example config on a single gpu
 
-```python3 trainSSL.py --config ./configs/configSSL.json --name SSL```
+```python3 trainSSL.py --config ./configs/configCityscapes.json --name SSL```
 
 #### Resuming training of a model with semi-supervised learning
 
