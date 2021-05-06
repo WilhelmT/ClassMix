@@ -8,7 +8,7 @@ Code used for the results in the paper  ["ClassMix: Segmentation-Based Data Augm
 ### Datasets
 
 #### Cityscapes
-Download the dataset from the Cityscapes dataset server([Link](https://www.cityscapes-dataset.com/)). Download the files named 'gtFine_trainvaltest.zip', 'leftImg8bit_trainvaltest.zip' and extract in ../data/Cityscapes/
+Download the dataset from the Cityscapes dataset server([Link](https://www.cityscapes-dataset.com/)). Download the files named 'gtFine_trainvaltest.zip', 'leftImg8bit_trainvaltest.zip' and extract in ../data/CityScapes/
 
 #### Pascal VOC 2012
 Download the dataset from [here](http://host.robots.ox.ac.uk/pascal/VOC/voc2012/). Download the file 'training/validation data' under 'Development kit' and extract in ../data/VOC2012/. For training, you will also need to download additional labels from this [link](https://drive.google.com/file/d/1P0YpiEX1t-gY954WFXlKII667PAs4WNP/view?usp=sharing), extract this directory into ../data/VOC2012.
