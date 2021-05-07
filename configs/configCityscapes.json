@@ -17,9 +17,9 @@
     "data": {
       "split_id_list": 0,
       "labeled_samples": 372,
-      "input_size": "512,512",
+      "input_size": "512,1024",
       "scale": false,
-      "crop": true
+      "crop": false
     },
     "unlabeled": {
       "train_unlabeled": true,
