@@ -27,5 +27,11 @@ Arguments related to the algoritms are specified in the configuration files. The
 
 ```python3 trainSSL.py --resume path/to/checkpoint.pth --name name_of_evaluation```
 
+#### Evaluating a trained model
+
+```python3 evaluateSSL.py --model-path path/to/checkpoint.pth```
+
+### Pretrained model
+[Here](https://drive.google.com/file/d/1JXlFsEqCi8onvmS8JwhZlYXJIIe0Mdyj/view?usp=sharing) is a model trained with SSL with 1/8 (372) labeled samples.
 
 
