@@ -25,7 +25,7 @@ Arguments related to the algoritms are specified in the configuration files. The
 
 #### Resuming training of a model with semi-supervised learning
 
-```python3 trainSSL.py --resume path/to/checkpoint.pth --name name_of_evaluation```
+```python3 trainSSL.py --resume path/to/checkpoint.pth --name name_of_training```
 
 #### Evaluating a trained model
 
