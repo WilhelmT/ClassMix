@@ -4,5 +4,5 @@ torchvision==0.6.0
 kornia==0.3.0
 tensorboard==2.2.1
 tqdm==4.45.0
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 scipy==1.2
